@@ -47,7 +47,15 @@ export default function Footer() {
         </div>
       </div>
       <div className="border-t border-neutral-700 px-5 py-5 text-center text-xs font-semibold text-neutral-500">
-        © {new Date().getFullYear()} Erci Market Corp · Website made by @VoltaNYC
+        © {new Date().getFullYear()} Erci Market Corp ·{' '}
+        <a
+          href="https://www.novusnyc.org/"
+          target="_blank"
+          rel="noreferrer"
+          className="text-[#F6B78D] hover:text-[#F6B78D]"
+        >
+          Made by Novus
+        </a>
       </div>
     </footer>
   )
